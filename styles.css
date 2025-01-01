@@ -1,0 +1,40 @@
+* {
+    
+    background-color: black;
+    color: white;
+
+}
+
+body {
+    transform: scale(1.5);
+    overflow: hidden;
+}
+
+
+
+#main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-box {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+#options-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: whitesmoke;
+    border: 2px solid red;
+}
